@@ -1,0 +1,27 @@
+/* CSS for the assistant container */
+.assistant-container {
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+}
+
+/* CSS for the assistant */
+#assistant {
+  width: 100px;
+  height: 100px;
+  background-image: url('animated.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  /* Add any other styles you need for the image */
+}
+
+/* CSS for the explanation text */
+#explanation {
+  text-align: center;
+  margin-top: 10px; /* Add spacing between the image and text */
+}
