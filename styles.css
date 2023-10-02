@@ -1,7 +1,11 @@
-/* CSS for the assistant container */
+body{
+  background-color: rgb(243, 228, 228);
+}
+
+
 .assistant-container {
   position: fixed;
-  top: 50px;
+  bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -24,4 +28,42 @@
 #explanation {
   text-align: center;
   margin-top: 10px; /* Add spacing between the image and text */
+}
+
+/* CSS for highlighting the button and assistant */
+
+.btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#element1{
+  text-align: center;
+}
+
+#btn1{
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+#btn2{
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+/* CSS for the hover icon */
+.hover-icon {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background-color: #007bff;
+  border-radius: 50%;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease-in-out;
 }
